@@ -30,7 +30,7 @@ const Calculator = {
 
 function actionApplyer(int, arr) {
   if (arr === []) {
-    return 0
+    return int
   }
   for (const func of arr) {
     int = func(int)
